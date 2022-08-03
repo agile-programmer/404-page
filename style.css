@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+}
+
+.box{
+    width: 100%;
+    background-color: #fff;      
+    padding: 130px;
+}
+
+.box-mini{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+}
+
+.img{
+    width: 550px;
+    height: 540px;
+    background-image: url(/image/tr.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.right {
+    width: 480px;
+    height: 540px;
+    font-size: 30px;
+    background: #f2f2f2;
+}
+
+.right  h2{
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 20px;
+    padding: 50px 20px;
+    font: size 40px;
+    font-weight: 900;
+    line-height: 1;
+    color: #543f69;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.right  p{
+    font-size: 20px;
+    color: #543f69;
+    font-weight: 600;
+    line-height: 1.6;
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-right: 15px;
+    text-align: center;
+}
+
+.btn1{
+    text-decoration: none;
+    font-weight: 700px;
+    border-bottom: 1px solid #f67a6d ;
+    color: #f67a6d;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.btn1:hover{
+    text-decoration: none;
+    font-weight: 700px;
+    border-bottom: 1px solid #000;
+    color: #f67a6d;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+button{
+    background: #f67a6d;
+    padding: 20px 50px;
+    border: none;
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-left: 70px;
+}
+
+button:hover{
+    background: #564f75;
+    cursor: pointer;
+}
+
+ .page{
+    font-size: 16px;
+    color: #111111;
+    font-weight: 600;
+ }
+
+ .homepage{
+    color: #111;
+    font-size: 16px;
+    border-width: 2px;
+    text-decoration: none;
+    border-bottom: 1px solid #f67a6d;
+    cursor: pointer;
+    letter-spacing: 1px;
+ }
+
+ .footer{
+    margin-top: 30px;
+    background: #333333;
+    height: 400px;
+ }
+
+ .footer .footer-main{
+    
+ }
+
+ .footer-main  p{
+    width: 417px;
+    margin: 49px auto;
+    color: #ffffff;
+    text-align: center;
+ }
